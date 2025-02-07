@@ -1,0 +1,17 @@
+{
+  "name": "api",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "hono": "^4.6.20",
+    "immer": "^10.0.3",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "wrangler": "^3.101.0"
+  }
+}
