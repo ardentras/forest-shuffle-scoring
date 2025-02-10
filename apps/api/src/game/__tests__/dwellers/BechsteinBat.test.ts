@@ -7,7 +7,7 @@ import {
   CommonPipistrelle,
   GreaterHorseshoeBat,
   SavisPipistrelle,
-} from "@/game/dwellers";
+} from "../dwellers";
 
 import {
   createAllDwellers,

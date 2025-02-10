@@ -1,4 +1,4 @@
-import { filterTrees } from "@/game/helpers";
+import { filterTrees } from "../helpers";
 
 import {
   CardType,

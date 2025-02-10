@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { FlyAgaric } from "@/game/dwellers";
+import { FlyAgaric } from "../dwellers";
 
 import {
   createAnyDweller,

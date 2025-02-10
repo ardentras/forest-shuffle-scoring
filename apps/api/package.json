@@ -1,17 +1,25 @@
 {
   "name": "api",
   "scripts": {
-    "dev": "wrangler dev",
+    "dev": "tsx watch src/index.ts; #wrangler dev",
     "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
+    "@hono/node-server": "^1.13.8",
     "@types/lodash-es": "^4.17.12",
     "hono": "^4.6.20",
     "immer": "^10.0.3",
-    "lodash-es": "^4.17.21"
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "tinydb": "^0.1.0",
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250109.0",
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
     "wrangler": "^3.101.0"
   }
 }

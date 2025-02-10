@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { PondTurtle } from "@/game/dwellers";
+import { PondTurtle } from "../dwellers";
 
 import {
   createAnyDweller,

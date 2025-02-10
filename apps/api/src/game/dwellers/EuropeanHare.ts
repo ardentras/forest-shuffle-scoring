@@ -1,4 +1,4 @@
-import { MountainHare } from "@/game/dwellers";
+import { MountainHare } from "../dwellers";
 
 import { countCardNames } from "../scoring/helpers";
 import {

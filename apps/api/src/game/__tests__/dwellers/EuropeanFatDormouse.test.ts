@@ -1,8 +1,8 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { EuropeanFatDormouse } from "@/game/dwellers";
-import { createDweller } from "@/game/factory";
-import { CardType, DwellerPosition } from "@/game/types";
+import { EuropeanFatDormouse } from "../dwellers";
+import { createDweller } from "../factory";
+import { CardType, DwellerPosition } from "../types";
 
 import { createFakeDweller, createFakeWoodyPlant } from "../fake";
 import {

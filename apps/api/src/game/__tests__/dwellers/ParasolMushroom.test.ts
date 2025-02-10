@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { ParasolMushroom } from "@/game/dwellers";
+import { ParasolMushroom } from "../dwellers";
 
 import {
   createAnyDweller,

@@ -1,9 +1,9 @@
 import { describe, expect, it } from "@jest/globals";
 import * as _ from "lodash-es";
 
-import { WildStrawberries } from "@/game/dwellers";
-import { CardType } from "@/game/types";
-import * as WoodyPlants from "@/game/woody-plants";
+import { WildStrawberries } from "../dwellers";
+import { CardType } from "../types";
+import * as WoodyPlants from "../woody-plants";
 
 import {
   createAnyDweller,

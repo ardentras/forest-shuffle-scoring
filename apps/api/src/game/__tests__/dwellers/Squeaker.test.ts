@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { Squeaker } from "@/game/dwellers";
+import { Squeaker } from "../dwellers";
 
 import {
   createAnyDweller,

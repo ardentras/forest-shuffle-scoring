@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { Fireflies } from "@/game/dwellers";
+import { Fireflies } from "../dwellers";
 
 import {
   createAllDwellers,

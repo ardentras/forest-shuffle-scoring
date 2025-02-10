@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { CommonToad } from "@/game/dwellers";
+import { CommonToad } from "../dwellers";
 
 import { createFakeWoodyPlant } from "../fake";
 import {

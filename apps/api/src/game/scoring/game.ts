@@ -1,6 +1,6 @@
 import * as _ from "lodash-es";
 
-import { filterTrees } from "@/game/helpers";
+import { filterTrees } from "../helpers";
 
 import * as Dwellers from "../dwellers";
 import {

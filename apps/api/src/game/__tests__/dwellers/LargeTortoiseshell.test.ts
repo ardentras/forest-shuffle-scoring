@@ -8,8 +8,8 @@ import {
   PhoebusApollo,
   PurpleEmperor,
   SilverWashedFritillary,
-} from "@/game/dwellers";
-import { CardType, DwellerPosition } from "@/game/types";
+} from "../dwellers";
+import { CardType, DwellerPosition } from "../types";
 
 import { createFakeDweller } from "../fake";
 import {

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { Chaffinch } from "@/game/dwellers";
+import { Chaffinch } from "../dwellers";
 import {
   Beech,
   Birch,
@@ -11,7 +11,7 @@ import {
   Sapling,
   SilverFir,
   Sycamore,
-} from "@/game/woody-plants";
+} from "../woody-plants";
 
 import {
   createAnyDweller,

@@ -1,8 +1,8 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { EXPANSION_CARD_TYPES } from "@/game/constants";
-import * as Dwellers from "@/game/dwellers";
-import { createDeck } from "@/game/factory";
+import { EXPANSION_CARD_TYPES } from "../constants";
+import * as Dwellers from "../dwellers";
+import { createDeck } from "../factory";
 import {
   CardType,
   DwellerCard,
@@ -10,8 +10,8 @@ import {
   GameBox,
   WoodyPlantCard,
   WoodyPlantVariant,
-} from "@/game/types";
-import * as WoodyPlants from "@/game/woody-plants";
+} from "../types";
+import * as WoodyPlants from "../woody-plants";
 
 const gameBoxCardTypes = {
   [GameBox.Base]: null,

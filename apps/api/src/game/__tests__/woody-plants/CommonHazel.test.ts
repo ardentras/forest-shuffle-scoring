@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { CommonHazel } from "@/game/woody-plants";
+import { CommonHazel } from "../woody-plants";
 
 import {
   createAnyWoodyPlant,

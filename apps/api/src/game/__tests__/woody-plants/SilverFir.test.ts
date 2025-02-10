@@ -1,7 +1,7 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { DwellerPosition } from "@/game/types";
-import { SilverFir } from "@/game/woody-plants";
+import { DwellerPosition } from "../types";
+import { SilverFir } from "../woody-plants";
 
 import { createFakeDwellers } from "../fake";
 import {

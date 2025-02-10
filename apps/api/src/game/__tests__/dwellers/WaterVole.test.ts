@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { WaterVole } from "@/game/dwellers";
+import { WaterVole } from "../dwellers";
 
 import {
   createAnyDweller,

@@ -1,8 +1,8 @@
 import { describe, expect, it } from "@jest/globals";
 
 import { DwellerPosition, TreeSymbol } from "@/game";
-import { RoeDeer } from "@/game/dwellers";
-import { createDweller, createSapling } from "@/game/factory";
+import { RoeDeer } from "../dwellers";
+import { createDweller, createSapling } from "../factory";
 
 import { createFakeDwellers, createFakeWoodyPlant } from "../fake";
 import {

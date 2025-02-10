@@ -1,8 +1,8 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { createFakeDwellers } from "@/game/__tests__/fake";
-import { StingingNettle } from "@/game/dwellers";
-import { CardType, DwellerPosition } from "@/game/types";
+import { createFakeDwellers } from "../__tests__/fake";
+import { StingingNettle } from "../dwellers";
+import { CardType, DwellerPosition } from "../types";
 
 import {
   createAnyDweller,

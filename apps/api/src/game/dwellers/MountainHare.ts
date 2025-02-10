@@ -1,5 +1,5 @@
-import { EuropeanHare } from "@/game/dwellers";
-import { countCardNames } from "@/game/scoring/helpers";
+import { EuropeanHare } from "../dwellers";
+import { countCardNames } from "../scoring/helpers";
 
 import {
   CardType,

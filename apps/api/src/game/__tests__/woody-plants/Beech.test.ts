@@ -1,7 +1,7 @@
 import { describe, expect, it } from "@jest/globals";
 
 import { DwellerPosition, TreeSymbol } from "@/game";
-import { Beech } from "@/game/woody-plants";
+import { Beech } from "../woody-plants";
 
 import { createFakeDweller, createFakeWoodyPlant } from "../fake";
 import {

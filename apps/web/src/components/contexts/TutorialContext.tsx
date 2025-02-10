@@ -9,7 +9,7 @@ import {
 import { useLocalStorage } from "usehooks-ts";
 
 import GameContext from "@/components/contexts/GameContext";
-import { getDwellersOfForest } from "@/game";
+// import { getDwellersOfForest } from "@/game";
 
 interface TutorialContextType {
   exchangeCardTooltipTarget?: string;
@@ -69,16 +69,16 @@ export const TutorialContextProvider = ({
     }
   }, [showAddTreeTooltip, hasWoodyPlant, wasCompleted]);
 
-  const dweller = game?.players?.flatMap((p) =>
-    getDwellersOfForest(p.forest),
-  )[0];
-  useEffect(() => {
-    if (showAddDwellerTooltip && dweller && !wasCompleted) {
-      setShowAddDwellerTooltip(false);
-      setShowExchangeCardTooltip(true);
-      setExchangeCardTooltipTarget(dweller.id);
-    }
-  }, [showAddDwellerTooltip, dweller, wasCompleted]);
+  // const dweller = game?.players?.flatMap((p) =>
+  //   getDwellersOfForest(p.forest),
+  // )[0];
+  // useEffect(() => {
+  //   if (showAddDwellerTooltip && dweller && !wasCompleted) {
+  //     setShowAddDwellerTooltip(false);
+  //     setShowExchangeCardTooltip(true);
+  //     setExchangeCardTooltipTarget(dweller.id);
+  //   }
+  // }, [showAddDwellerTooltip, dweller, wasCompleted]);
 
   const onCardClick = useCallback(() => {
     if (showExchangeCardTooltip && !wasCompleted) {

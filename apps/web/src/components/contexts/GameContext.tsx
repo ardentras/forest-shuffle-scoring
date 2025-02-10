@@ -43,7 +43,8 @@ interface GameContextProviderProps {
 
 const reducer: Reducer<State, GameAction> = (state, action) => {
   if (action.type === GameActionType.CreateGame) {
-    const game = createGame(action.payload.gameBoxes);
+    // const game = createGame(action.payload.gameBoxes);
+    const gameId = fetch("http://localhost:3000")
     const player = createPlayer(
       action.payload.playerName,
       action.payload.caveCardCount,

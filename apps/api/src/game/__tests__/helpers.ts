@@ -1,6 +1,6 @@
-import * as Dwellers from "@/game/dwellers";
-import { createDweller, createWoodyPlant, generateId } from "@/game/factory";
-import * as WoodyPlants from "@/game/woody-plants";
+import * as Dwellers from "../dwellers";
+import { createDweller, createWoodyPlant, generateId } from "../factory";
+import * as WoodyPlants from "../woody-plants";
 
 import {
   DwellerCard,

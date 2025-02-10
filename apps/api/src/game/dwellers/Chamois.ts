@@ -1,4 +1,4 @@
-import { countTreeSymbols } from "@/game/scoring/helpers";
+import { countTreeSymbols } from "../scoring/helpers";
 
 import {
   CardType,

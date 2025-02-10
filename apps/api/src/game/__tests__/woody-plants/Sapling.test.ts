@@ -1,7 +1,7 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { createSapling } from "@/game/factory";
-import { Sapling } from "@/game/woody-plants";
+import { createSapling } from "../factory";
+import { Sapling } from "../woody-plants";
 
 import { createForestWith, createGame } from "../helpers";
 

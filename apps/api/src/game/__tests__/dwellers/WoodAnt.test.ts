@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { WoodAnt } from "@/game/dwellers";
+import { WoodAnt } from "../dwellers";
 
 import { DwellerPosition } from "../..";
 import { createFakeDweller, createFakeDwellers } from "../fake";

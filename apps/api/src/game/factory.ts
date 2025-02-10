@@ -19,6 +19,8 @@ import {
 import * as WoodyPlants from "./woody-plants";
 import { Sapling } from "./woody-plants";
 
+import { db } from "./db";
+
 export const generateId = () => uuidv4();
 
 export const createDweller = (

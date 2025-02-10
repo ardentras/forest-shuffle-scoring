@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { EurasianMagpie } from "@/game/dwellers";
+import { EurasianMagpie } from "../dwellers";
 
 import {
   createAnyDweller,

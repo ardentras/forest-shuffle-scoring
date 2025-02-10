@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { Edelweiss } from "@/game/dwellers";
+import { Edelweiss } from "../dwellers";
 
 import {
   createAnyDweller,

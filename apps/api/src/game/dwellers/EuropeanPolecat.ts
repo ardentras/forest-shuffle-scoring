@@ -1,4 +1,4 @@
-import { getDwellersOfWoodyPlant } from "@/game/helpers";
+import { getDwellersOfWoodyPlant } from "../helpers";
 
 import {
   CardType,

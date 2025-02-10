@@ -1,7 +1,7 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { CardType, DwellerPosition } from "@/game/types";
-import { SwissPine } from "@/game/woody-plants";
+import { CardType, DwellerPosition } from "../types";
+import { SwissPine } from "../woody-plants";
 
 import { createFakeDwellers, createFakeWoodyPlants } from "../fake";
 import {

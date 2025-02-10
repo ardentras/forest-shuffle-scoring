@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { FireSalamander } from "@/game/dwellers";
+import { FireSalamander } from "../dwellers";
 
 import {
   createAllDwellers,

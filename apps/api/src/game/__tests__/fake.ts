@@ -1,4 +1,4 @@
-import { generateId } from "@/game/factory";
+import { generateId } from "../factory";
 import {
   CardType,
   DwellerCard,
@@ -7,7 +7,7 @@ import {
   GameBox,
   TreeSymbol,
   WoodyPlantCard,
-} from "@/game/types";
+} from "../types";
 
 interface FakeDwellerOptionalArgs {
   id?: string;

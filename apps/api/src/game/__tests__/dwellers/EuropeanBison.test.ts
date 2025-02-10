@@ -1,8 +1,8 @@
 import { describe, expect, it } from "@jest/globals";
 
 import { DwellerCard, TreeSymbol, WoodyPlantCard } from "@/game";
-import { EuropeanBison } from "@/game/dwellers";
-import { createSapling } from "@/game/factory";
+import { EuropeanBison } from "../dwellers";
+import { createSapling } from "../factory";
 
 import { createFakeWoodyPlants } from "../fake";
 import {

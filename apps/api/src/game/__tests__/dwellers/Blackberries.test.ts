@@ -1,7 +1,7 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { Blackberries } from "@/game/dwellers";
-import { CardType, DwellerPosition } from "@/game/types";
+import { Blackberries } from "../dwellers";
+import { CardType, DwellerPosition } from "../types";
 
 import { createFakeDwellers } from "../fake";
 import {

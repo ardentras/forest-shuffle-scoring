@@ -1,4 +1,4 @@
-import { countCardTypes, scoreByCount } from "@/game/scoring/helpers";
+import { countCardTypes, scoreByCount } from "../scoring/helpers";
 
 import {
   CardType,

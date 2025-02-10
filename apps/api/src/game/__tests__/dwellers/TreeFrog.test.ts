@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { Gnat, TreeFrog } from "@/game/dwellers";
+import { Gnat, TreeFrog } from "../dwellers";
 
 import {
   createAllDwellers,

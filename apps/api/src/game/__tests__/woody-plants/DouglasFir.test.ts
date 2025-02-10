@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { DouglasFir } from "@/game/woody-plants";
+import { DouglasFir } from "../woody-plants";
 
 import { createAnyWoodyPlant, createForestWith, createGame } from "../helpers";
 
